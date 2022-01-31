@@ -24,7 +24,7 @@ stages:
   jobs:
   - deployment: deploy
     displayName: Deploy
-    environment: VMs-WebDev
+    environment: VM2
     strategy:
       runOnce:
         deploy:
